@@ -1,0 +1,6 @@
+.idea
+.vscode
+*.log
+dist
+node_modules
+ng-package.debug.json
