@@ -1,6 +1,9 @@
-var People;
-(function (People) {
-    People[People["a"] = 0] = "a";
-    People[People["b"] = 8] = "b";
-    People[People["c"] = 9] = "c";
-})(People || (People = {}));
+var Adder = /** @class */ (function () {
+    function Adder(a) {
+        this.a = a;
+    }
+    Adder.prototype.add = function (b) {
+        return this.a + b;
+    };
+    return Adder;
+}());

@@ -1,3 +1,9 @@
-// const a = { a: 1, b: 2 };
-// const c = ["a", "b"];
-// type b = keyof typeof a;
+export class Adder {
+  constructor(public a: string) {}
+
+  add(b: string): string {
+    return this.a + b;
+  }
+}
+
+export const a1 = 1;
