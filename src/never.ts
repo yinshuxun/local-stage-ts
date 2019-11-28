@@ -1,1 +1,1 @@
-const fun1 = (): void => {};
+const fun1 = (num: number): void => {};
