@@ -1,3 +1,3 @@
-const fun1 = (num:string): void => {};
+const fun1 = (feat01:string): void => {};
 
 console.log('after feat01')
