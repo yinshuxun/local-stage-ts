@@ -4,3 +4,5 @@
 dist
 node_modules
 ng-package.debug.json
+.DS_Store
+
