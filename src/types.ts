@@ -17,6 +17,8 @@ const test01 = {
 };
 export type test02 = valueOf<typeof test01>;
 
+export type t1 = keyof typeof test01
+
 export type keyIn = {
   [key in keyof typeof test01]: string;
 };
